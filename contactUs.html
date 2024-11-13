@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="description" content="Sumayyah">
+    <title>Contact | Cantor College</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/mobile.css">
+    <link 
+    rel="stylesheet"
+    href="styles/main.css"
+    media="only screen and (min-width: 720px)"/>
+</head>
+<body>
+    <header class="pageHeader"> 
+        <div class="headerContents">
+           <a href="index.html"><img src="images/logo.png" alt="yellow and white text on a brown background"></a>
+    </div>
+    <nav class="navBar">
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="course.html">COURSES</a></li>
+            <li><a href="resource.html">RESOURCES</a></li>
+            <li><a href="forBusiness.html">BUSINESSES</a></li>
+            <li><a href="staff.html">STAFF</a></li>
+            <li><a href="students.html">STUDENTS</a></li>
+        </ul>
+    </nav>
+        <div class="headerIcons">
+            <div class="visitUsIcon">
+            <a href="visitUs.html"><img src="images/locationIcon.png" alt="a location pin"></a>
+            </div>
+            <div class="contactIcon">
+            <a href="contactUs.html"><img src="images/contactIcon.png" alt="person inisde a circle"></a>
+            </div>
+        </div>
+    </header>  
+    <main>
+        <div class="contactBanner">
+            <img src="images/contactBanner.jpg" alt="a building on the left and various cars parked" width="1487" height="879" class="resize">
+          <div class="contactTitle">Contact Us</div>  
+        </div>    
+            <section>
+            <h2>Enter your query here</h2>
+               <form action="thankYou.html">
+                <div>
+                <label for="yourName">Name:</label>
+                <input type="text" name="yourName" id="yourName" placeholder="Please Add Your Name">
+                </div>
+                <div>
+                <label>Email:</label>
+                <input type="email" name="email" placeholder="Email Address">
+                </div>
+                <div>
+                <label>Telephone:</label>
+                <input type="tel" name="tel" placeholder="Telephone Number">
+                </div>
+                <div>
+                <label for="message" >Message:</label>
+                <textarea name="message" id="message" placeholder="Your Message"></textarea>
+                </div>   
+                <div class="messageThanks">
+                <button onclick="gotoLocation(this)" value="thankYou.html">Send</button>
+            </div>
+                </form>
+            </section>
+         
+    </main>
+    <footer class="pageFooter">
+        <div class="contactDetails">
+            <strong>Tel: (01321) 2340 235<br>Fax: (01321) 2340 236<br>Email: info@cantorcollege.ac.uk</strong>
+        </div>
+        <div class="address">
+            <strong>Cantor College<br>Main Street<br>Sheffield<br>SC4 2BB</strong>
+        </div>
+        <div class="copyright">
+            &copy; Cantor College 2024
+        </div>
+    </footer>
+    <script src="scripts/main.js"></script>
+</body>
+</html>

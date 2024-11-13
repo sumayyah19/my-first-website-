@@ -1,0 +1,439 @@
+body{
+    background-color: antiquewhite;
+    margin: 0;
+}
+.pageHeader{
+    max-width:100%;
+    height: 80px;
+    background-color: #735443;
+    display: flex;
+    justify-content: space-between;   
+}
+.headerContents{
+    width: fit-content;
+    height: 100%;
+    display: flex;
+}
+.headerLogo img{
+    margin-left: 50px;
+}
+nav{
+    width: fit-content;
+    height: 100%;
+}
+nav ul{
+    list-style: none;
+}
+nav ul li{
+    display: inline;
+}
+nav ul li a{
+    padding-right: 20px;
+    padding-left: 20px;
+    font-family:cursive;
+    color: black;
+    font-weight: bold;
+    line-height: 40px;
+    text-decoration: none;
+    font-size: 17px;
+    align-items: center;
+    letter-spacing: 1px; 
+
+}
+nav li a:active{
+    text-decoration: underline;
+    color: #BF9180;
+}
+nav li a:hover{
+    color: #FFFFFF;
+}
+nav li:first-child{
+    border-left: none;
+}
+.headerIcons{
+    width: fit-content;
+    height: 40px;
+    padding-right: 4px;
+    display: flex;
+}
+.visitUsIcon{
+    margin-right:1px;
+}
+.pageFooter{
+    width: 100%;
+    height: 110px;
+    background-color: #735443;
+    display: flex;
+}
+.copyright{
+    padding: 45px 100px 0px 60px;
+    font-size: 24px;
+    font-family:'Times New Roman', Times, serif;   
+}
+.contactDetails{
+    padding-left: 10px;
+    padding-top: 25px;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.address{
+    padding-top: 16px;
+    padding-left: 80px;
+    font-size: 18px;
+    font-family:'Courier New', Courier, monospace;
+    
+}
+.banner img{
+    display: block;
+    margin: 20px auto 0px auto;
+    max-width: 100%;
+    height: auto;
+}
+h1 {
+    text-align: center;
+    font-family:'Lucida Sans';
+    text-decoration: underline;
+}
+.courses{
+    margin: 30px 20px 50px 20px;
+}
+.courseText{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    border: 3px solid #735443;
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 25px;
+}
+.ps img{
+    float: left;
+    margin:13px;
+}
+div.computerLabs{
+    width: 22.8%;
+    background-color: #BF9A78;
+    box-shadow: 0 4px 8px 0 rgba(o, o, o, o.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.computerLabs img{
+    width: 339px;
+}
+div.container{
+    text-align: center;
+    padding-bottom: 2px;
+    font-family:cursive;
+    font-size: 20px;
+}
+div.gallery{
+    width: 22.8%;
+    background-color: #BF9A78;
+    box-shadow: 0 4px 8px 0 rgba(o, o, o, o.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.gallery img{
+    width: 339px;  
+}
+div.cantorAtrium{
+    width: 22.8%;
+    background-color: #BF9A78;
+    box-shadow: 0 4px 8px 0 rgba(o, o, o, o.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.cantorAtrium img{
+    width: 339px;
+}
+.images{
+    display:flex;
+    justify-content: space-evenly;
+}
+.fText{
+    margin: 25px 20px 0px 20px;
+    padding: 10px 12px;
+    align-self: center;
+    border: 3px solid #735443;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+.fList{
+    margin: 10px 20px 0px 20px;
+    padding-left: px;
+    padding-right:px;
+    margin-bottom: 130px;
+    border: 3px solid #735443;
+    
+}
+.fList ul li {
+    text-decoration: none;
+    font-size: 17px;
+    text-align: center;
+    list-style-position: inside;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 0.5px;
+    line-height: 28px;
+}
+.fList li:first-child{
+    border-left: none;
+}
+
+.backgroundImage{
+    position: relative;
+}
+.backgroundTitle{
+    position: absolute;
+    bottom: 30px;
+    right: 40px;
+    font-size: 100px;
+    font-family: 'lucida sans';
+    color: #FFFFFF;
+}
+.backgroundImage img{
+    max-width: 100%;
+    height: auto;
+}
+.mainText{
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 1px;
+    line-height: 50px;
+    font-family:'Lucida Sans';
+    margin: 60px 40px 130px 40px;
+}
+.pageBanner{
+    position: relative;
+}
+.bannerTitle{
+    position: absolute;
+    bottom: 17px;
+    right: 8px;
+    font-size: 100px;
+    font-family: 'lucida sans';
+    color: black;
+    margin-top: 25px
+}
+.bannerImage img{
+    width: 100%;
+    height: auto;
+    opacity: 0.7;
+}
+.staffTextOne {
+    display:flex;
+    justify-content: space-evenly;
+}
+.staffStudents{
+    margin: 60px 40px 20px 40px;
+    align-self: center;
+}
+.firstText{
+    margin: 60px 40px 20px 40px;
+    font-family: 'Lucida Sans';
+    font-size: 20px;
+}
+h2{
+    text-decoration: underline;
+}
+.staffTextTwo{
+    display:flex;
+    justify-content: space-evenly;
+}
+.lectureTheatre{
+    margin: 60px 40px 20px 40px;
+    align-self: center;
+}
+.secondText{
+    margin: 60px 40px 130px 40px;
+    font-family: 'Lucida Sans';
+    font-size: 20px;
+}
+
+.bridge img{
+    width: 100%;
+    height: auto;
+    opacity: 0.8;
+}
+.academicInfo{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 80px;
+    align-items: center;
+
+}
+.mainHall img{
+    margin-right: 40px;
+}
+.studentText h2{
+    margin-left: 40px;
+    font-family: 'Lucida Sans';
+    text-align: center;
+}
+.studentText ul li{
+    margin-left: 70px;
+    font-family: 'Lucida Sans';
+    font-size: 15px;
+    line-height: 45px;
+}
+
+.studentText li:first-child{
+    border-left: none;
+}
+.adminSupport{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 80px;
+    align-items: center;
+
+}
+.activeLecture img{
+    margin-left: 40px;
+}
+.studentServices{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 80px;
+    align-items: center;
+}
+.studentServices ul li{
+    font-size: 18px;
+}
+.studentSupport img{
+    margin-right: 40px;
+}
+
+.universityServices{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 80px;
+    align-items: center;
+
+}
+.universityServices ul li{
+    font-size: 20px;
+}
+.distanceBuilding img{
+    margin-left: 40px;
+}
+.uniLife{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 80px;
+    align-items: center;
+}
+.uniLife ul li{
+    font-size: 20px;
+}
+.communications{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 80px;
+    align-items: center;
+}
+.communications ul li{
+    font-size: 20px;
+}
+.studentDiscussions img{
+    margin-left: 40px;
+    margin-bottom: 100px;
+}
+.resourceText{
+    
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 35px;
+    font-family:'Lucida Sans';
+    margin: 60px 40px 130px 40px;
+}
+.resourceBanner{
+    position: relative;
+}
+.resourceImage img{
+    width: 100%;
+    height: auto;
+}
+.resourceTitle{
+    position: absolute;
+    color: #FFFFFF;
+    bottom: 4px;
+    right: 8px;
+    font-size: 100px;
+    font-family: 'lucida sans';
+    margin-top: 25px
+}
+.access{
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+.visitGallery img{
+    width: 100%;
+    height: auto;
+}
+.visitUsBanner{
+    padding-top: 15px;
+    margin: 0px 33px 42px;
+    float: left;
+    width: 24.99999;
+}
+@media only screen and (max-width: 700px){
+    .visitUsBanner{
+        width: 49.99999;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .visitUsBanner{
+        width: 100%;
+    }
+}
+.clearfix:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.map{
+   margin: 20px;
+}
+.visitText{
+    display: inline-flex;
+    border: solid;
+    margin: 0px 20px 130px 20px ;
+    align-items: center;
+}
+.addressText{
+    font-size: 50px;
+    text-align: center;
+    padding-top: 20px;
+    padding-right: 5px;
+}
+.contactBanner{
+    position: relative;
+}
+.contactTitle{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate (-50%, -50%);
+}
+.contactBanner img{
+    width: 100% ;
+    height : auto;
+    opacity: 0.8;
+}
+.form{
+    width: 50%;
+    margin: auto;
+}
+form>div{
+    margin: 15px 0;
+    display: flex;
+}
+label{
+    display: inline-block;
+    width: 120px;
+}
+.submitContainer{
+    justify-content: flex-end;
+}
+section img:hover{
+    cursor: pointer;
+}
+.messageThanks{
+    margin: 10px 100px 130px 1430px;
+}

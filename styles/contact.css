@@ -1,0 +1,22 @@
+.thankText h3{
+    font-size: 50px;
+    text-align: center;
+}
+.thankText h1{
+    font-size: 80px;
+}
+.containerThankyou{
+    position: relative;
+}
+.thankText{
+    position: absolute;
+    top: 40px;
+    left: 200px;
+    
+}
+.containerThankyou img{
+    width: 100%;
+    height: auto;
+    opacity: 0.6;
+
+}

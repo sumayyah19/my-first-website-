@@ -1,0 +1,85 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+    font-size: 1em;
+    margin: 0;
+    padding: 0;
+}
+.resize{
+    width: 100%;
+    height: auto;
+}
+form>div{
+    margin: 15px 0px;
+}
+label{
+    display: block;
+}
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 15px;
+}
+input[type="submit"]{
+    margin: 10px auto;
+    text-align: center;
+    width: 100%;
+    padding: 15px;
+}
+.burger >.line{
+    width: 35px;
+    height: 5px;
+    background-color: #ccc;
+    margin: 6px 0;
+}
+@media screen and (min-width: 600px) {
+    div.contactTitle{
+        font-size: 90px;
+    }
+}
+@media screen and (max-width: 600px) {
+    div.contactTitle{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width:600px) {
+    .navBar ul li a{
+        float: none;
+        width: 100%;
+        display: block;
+    }
+}
+@media screen and (min-width: 600px) {
+    div.backgroundTitle{
+        font-size: 90px;
+    }
+}
+@media screen and (max-width: 600px) {
+    div.backgroundTitle{
+        font-size: 20px;
+    }
+}
+@media screen and (min-width: 600px) {
+    div.bannerTitle{
+        font-size: 90px;
+    }
+}
+@media screen and (max-width: 600px) {
+    div.bannerTitle{
+        font-size: 20px;
+    }
+}
+@media screen and (min-width: 600px){
+    div.navBar ul li{
+        height: 36px;
+        width: 36px;
+    }
+}
+@media screen and (max-width: 600px){
+    div.navBar ul li{
+        height: 36px;
+        width: 36px;
+    }
+}
