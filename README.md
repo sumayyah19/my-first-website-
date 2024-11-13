@@ -10,6 +10,6 @@ The websited was designed as a resource for prospective students and to promote 
 - Connecting back-end database 
 
 ## How To Run
-1. Clone the repository (e.g., in Visual Studio Code) and save it in your desired location
-2. You must have the live server extension installed within your visual studio code. You can open this website in a browser with live server 
+1. Clone the repository (e.g., in Visual Studio Code) and save it in your chosen location
+2. You must have the live server extension installed within your visual studio code. You can open this website in a browser with live server. 
 
